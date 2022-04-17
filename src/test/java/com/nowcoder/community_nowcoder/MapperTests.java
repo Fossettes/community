@@ -36,6 +36,7 @@ public class MapperTests {
 
         user = userMapper.selectByEmail("nowcoder101@sina.com");
         System.out.println(user);
+        System.out.println("我正在测试Git");
     }
 
     @Test
