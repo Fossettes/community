@@ -44,6 +44,7 @@ public class HomeController {
             }
         }
         model.addAttribute("discussPosts", discussPosts);
+        System.out.println("我正在测试Git");
         return "/index";
     }
 
